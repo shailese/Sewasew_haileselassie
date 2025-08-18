@@ -1,0 +1,76 @@
+/* Reset */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global */
+body {
+  font-family: Playfair, serif;
+  background: #f2eeec;
+  color: #5a7782;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header {
+  background: #5a7782; /* dark brown */
+  color: #f2eeec;
+  padding: 1rem 2rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav h1 a {
+  color: #f2eeec;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  color: #f2eeec; /* light beige */
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+  background: #f3f2ef;
+}
+
+.hero img {
+  width: 180px;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.hero h2 {
+  color: #2f3e34;
+}
+
+.hero p {
+  color: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #5a7782;
+  color: #f2eeec;
+}
