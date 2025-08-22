@@ -90,14 +90,14 @@ header nav ul li a:hover {
 
 
 
-.research {
+.research-item {
   display: flex;
   align-items: flex-start; /* align image top with text */
   gap: 1rem;              /* space between image and text */
   margin-bottom: 2rem;
 }
 
-.research img {
+.research-item img {
   width: 6em;   /* scales with text size (1em = current font size) */
   height: auto; /* keeps proportions */
   border-radius: 8px; /* optional: rounded corners */
