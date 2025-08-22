@@ -88,10 +88,20 @@ header nav ul li a:hover {
   margin: 2rem 0;
 }
 
-.research img {
-  width: 90px;
-  border-radius: 50%;
-  margin-right: 2rem;
+
+
+.research-item {
+  display: flex;
+  align-items: flex-start; /* align image top with text */
+  gap: 1rem;              /* space between image and text */
+  margin-bottom: 2rem;
+}
+
+.research-item img {
+  width: 6em;   /* scales with text size (1em = current font size) */
+  height: auto; /* keeps proportions */
+  border-radius: 8px; /* optional: rounded corners */
+  flex-shrink: 0;     /* prevents image from shrinking too much */
 }
 
 /* Footer */
