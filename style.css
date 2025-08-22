@@ -68,6 +68,8 @@ header nav ul li a:hover {
 }
 
 
+
+
 .projects-grid { 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -87,6 +89,9 @@ header nav ul li a:hover {
   padding: 2rem; 
   margin: 2rem 0;
 }
+
+
+
 
 .research-grid { 
   display: grid;
