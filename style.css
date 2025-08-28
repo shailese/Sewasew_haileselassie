@@ -157,6 +157,22 @@ header nav ul li a:hover {
 
 
 
+.contact-section {
+  max-width: 600px;   /* limits width */
+  margin: 50px auto;  /* centers section */
+  padding: 20px;
+}
+
+.contact-section iframe {
+  width: 100%;        /* full width of container */
+  height: 600px;      /* adjust height as needed */
+  border: none;
+  border-radius: 8px; /* optional rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+
+
 
 
 
