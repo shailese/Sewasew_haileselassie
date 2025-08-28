@@ -68,56 +68,97 @@ header nav ul li a:hover {
 }
 
 
-
-
-.projects-grid { 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem; padding: 2rem; 
+.profile-pic {
+  display: block;
+  margin: 60px auto;       /* centers image horizontally */
+  max-width: 500px;     /* adjust until it looks right */
+  height: auto;         /* keeps proportions */
 }
 
-.project-card img { 
-  width: 100%;
-  border-radius: 8px; 
-  margin-bottom: 1rem;
+.about-text {
+  max-width: 600px;   /* same as your image max-width */
+  margin: 0 auto;     /* centers it */
+  text-align: center; /* optional: centers the text inside */
 }
 
-.subscribe-cta { 
-  background: #2f3e34; 
-  color: #fff; 
+
+
+
+
+
+.research-preview {
   text-align: center;
-  padding: 2rem; 
-  margin: 2rem 0;
+  padding: 40px 20px;
 }
 
-
-
-
-.research-grid { 
+.research-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem; padding: 2rem; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.research-card img { 
-  width: 100%;
-  border-radius: 8px; 
-  margin-bottom: 1rem;
+.research-card {
+  display: block;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.research-item {
-  display: flex;
-  align-items: flex-start; /* align image top with text */
-  gap: 1rem;              /* space between image and text */
-  margin-bottom: 2rem;
+.research-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.research-item img {
-  width: 6em;   /* scales with text size (1em = current font size) */
-  height: auto; /* keeps proportions */
-  border-radius: 8px; /* optional: rounded corners */
-  flex-shrink: 0;     /* prevents image from shrinking too much */
+.research-card h3 {
+  margin-top: 0;
 }
+
+
+
+
+.courses-preview {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* ensures 2 columns */
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.course-card {
+  display: block;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.course-card h3 {
+  margin-top: 0;
+}
+
+
+
+
+
 
 /* Footer */
 footer {
