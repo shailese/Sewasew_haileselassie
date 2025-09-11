@@ -139,7 +139,7 @@ header nav ul li a:hover {
   display: block;
   background: #f9f9f9;
   border-radius: 12px;
-  padding: 20px;
+  padding: 5px;
   text-decoration: none;
   color: inherit;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -154,6 +154,15 @@ header nav ul li a:hover {
 .course-card h3 {
   margin-top: 0;
 }
+
+
+.course-text {
+  max-width: 600px;   /* same as your image max-width */
+  margin: 0 auto;     /* centers it */
+  text-align: center; /* optional: centers the text inside */
+}
+
+
 
 
 
