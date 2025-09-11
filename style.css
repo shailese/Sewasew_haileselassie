@@ -151,16 +151,8 @@ header nav ul li a:hover {
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.course-card h3 {
-  margin-top: 0;
-}
 
 
-.course-text {
-  max-width: 600px;   /* same as your image max-width */
-  margin: 0 auto;     /* centers it */
-  text-align: center; /* optional: centers the text inside */
-}
 
 .course-container {
   display: flex;
@@ -174,6 +166,22 @@ header nav ul li a:hover {
   align-items: flex-start; /* align tops of image & text */
   gap: 20px; /* space between image and text */
 }
+
+
+.course-card h3 {
+  margin-top: 0;
+  width: 15%;
+  height: auto;
+}
+
+.course-text {
+  max-width: 600px;   /* same as your image max-width */
+  margin: 0 auto;     /* centers it */
+  text-align: center; /* optional: centers the text inside */
+}
+
+
+
 
 
 .contact-section {
