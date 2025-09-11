@@ -138,7 +138,7 @@ header nav ul li a:hover {
 .course-card {
   display: block;
   background: #f9f9f9;
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 5px;
   text-decoration: none;
   color: inherit;
@@ -165,12 +165,13 @@ header nav ul li a:hover {
   display: flex;
   align-items: flex-start; /* align tops of image & text */
   gap: 20px; /* space between image and text */
+  flex-direction: column;
 }
 
 
 .course-card h3 {
   margin-top: 0;
-  width: 15%;
+  width: 50%;
   height: auto;
 }
 
