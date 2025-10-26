@@ -251,7 +251,7 @@ header .subtitle {
   gap: 1rem;                 /* adds space between images */
   align-items: center;
   flex-wrap: nowrap;           /* allows them to stack on small screens */
-  overflow:scroll;
+  overflow:hidden;
   gap: 0.5rem;
   margin: 1rem 0;
 }
@@ -261,7 +261,6 @@ header .subtitle {
   border-radius: 8px;
   display: block;
   object-fit: cover;
-  height: 120px;
 }
 
 .post p {
